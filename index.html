@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="./index.css"/>
     <title>YouTube video player page</title>
 </head>
 <body>
     <nav class="nav-bar">
-        <ul>
-            <li>A Microverse Student</li>
+        <ul class="nav-left-section">
+            <li><img src="./img/three-bars-icon.png"/></li>
+            <li><img src="./img/youtube-icon.jpeg"/></li>
+        </ul>
+        <ul class="nav-middle-section">
+            <li>
+                <input type="text" name="serch-query" id="serch-bar" placeholder="search-bar">
+                <img src="./img/google-web-search-xxl.png"/>
+            </li>
+        </ul>
+        <ul class="nav-right-section">
+            <li><a href="#">Add video</a> </li>
+            <li><a href="#"><img src="/img/grid-icon.png"></a></li>
+            <li><a href="#"><img src="/img/three-dots-icon.png"></a></li>
+            <li><a href="#"><img src="/img/default-user-icon.png"/>SIGNIN</a></li>
         </ul>
     </nav>
     <section class="main-player"></section>
