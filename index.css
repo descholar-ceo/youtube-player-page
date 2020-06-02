@@ -6,6 +6,7 @@ html,body{
 nav{
     width: 100%;
     background-color: blue;
+    display: inline-block;
 }
 
 img{
@@ -13,20 +14,31 @@ img{
 }
 
 ul{
-    list-style: none;
-    display: inline;
+    list-style-type: none;
+    display: inline-block;
+}
+nav li{
+    display: inline-block;
+    margin-right: 15px;
 }
 
 ul > li{
-    display: inline;
+    display: inline-block;
 }
 
 a{
     text-decoration: none;
     color: rgb(255,255,255);
 }
- .nav-right-section{
-    margin-right: 0;
-    width: 40%;
+.nav-right-section{
+    float: right;
     background-color: blueviolet;
- }
+    text-align: right;
+   }
+.nav-middle-section{
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    width: 40%;
+}
