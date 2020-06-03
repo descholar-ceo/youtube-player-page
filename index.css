@@ -1,128 +1,131 @@
-html,body{
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
-nav{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: rgb(255,255,255);
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(255, 255, 255);
 }
-section{
-    margin-top: 90px;
-}
-
-img{
-    height: 40px;
+section {
+  margin-top: 90px;
 }
 
-ul{
-    list-style-type: none;
-    display: inline-block;
-}
-nav li{
-    display: inline-block;
-    margin-right: 15px;
+img {
+  height: 40px;
 }
 
-ul > li{
-    display: inline-block;
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+nav li {
+  display: inline-block;
+  margin-right: 15px;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255,255,255);
-}
-.nav-right-section{
-    position: absolute;
-    right: 0;
-    top: 0;
-   }
-.nav-middle-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    margin-left: 150px;
-   }
-
-.nav-middle-section > li{
-    display: inline-block;
-}
-form > input{
-    position: relative;
-    top: 0;
-    width: 500px;
-    height: 30px;
+ul > li {
+  display: inline-block;
 }
 
-form > button{
-    height: 35px;
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-right-section {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nav-middle-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-left: 150px;
 }
 
-button > img{
-    height: 100%;
+.nav-middle-section > li {
+  display: inline-block;
+}
+form > input {
+  position: relative;
+  top: 0;
+  width: 500px;
+  height: 30px;
 }
 
-section{
-    width: 60%;
+form > button {
+  height: 35px;
 }
 
-.description{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 100px;
+button > img {
+  height: 100%;
 }
 
-.subscribe-btn{
-    background-color: rgb(255,0,0);
-    border: none;
-    animation: none;
-    color: rgb(255,255,255);
-    outline: none;
-    font-weight: bolder;
-    cursor: pointer;
+section {
+  width: 60%;
 }
 
-.counters{
-    display: flex;
-    position: relative;
-    top: 0;
-    left: 0;
-    
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 
-.counters-left-side{
-    position: absolute;
-    top: 0;
-    left: 0;
+.subscribe-btn {
+  background-color: rgb(255, 0, 0);
+  border: none;
+  animation: none;
+  color: rgb(255, 255, 255);
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
 }
 
-.counters-right-side{
-    position: absolute;
-    top: 0;
-    right: 0;
+.counters {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.video-uploader > img{
-    border-radius: 100px;
+.counters-left-side {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-
-.video-uploader > label{
-    font-size: 20px;
-    margin-left: 20px;
+.counters-right-side {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.video-uploader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.video-uploader > img {
+  border-radius: 100px;
+}
+
+.video-uploader > label {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.video-uploader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.video-description {
+  margin-left: 60px;
+  margin-top: 20px;
 }
