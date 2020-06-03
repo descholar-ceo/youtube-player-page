@@ -129,3 +129,14 @@ section {
   margin-left: 60px;
   margin-top: 20px;
 }
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  width: ;
+}
