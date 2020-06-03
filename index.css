@@ -1,12 +1,20 @@
 html,body{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 nav{
     width: 100%;
     display: flex;
     flex-direction: row;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(255,255,255);
+}
+section{
+    margin-top: 90px;
 }
 
 img{
@@ -31,8 +39,9 @@ a{
     color: rgb(255,255,255);
 }
 .nav-right-section{
-    text-align: right;
-    align-items: right;
+    position: absolute;
+    right: 0;
+    top: 0;
    }
 .nav-middle-section{
     display: flex;
@@ -40,42 +49,80 @@ a{
     justify-content: center;
     align-items: center;
     width: 600px;
+    margin-left: 150px;
    }
 
 .nav-middle-section > li{
     display: inline-block;
 }
-input{
+form > input{
     position: relative;
     top: 0;
     width: 500px;
-    height: 40px;
+    height: 30px;
+}
+
+form > button{
+    height: 35px;
+}
+
+button > img{
+    height: 100%;
 }
 
 section{
     width: 60%;
-}
-.counters{
-    display: inline-block;
-
-}
-.dislikes{
-    margin-left: 15px;
-    font-size: 13px;
-}
-
-.likes{
-    margin-left: 15px;
 }
 
 .description{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .subscribe-btn{
-    background-color: red;
+    background-color: rgb(255,0,0);
     border: none;
     animation: none;
+    color: rgb(255,255,255);
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.counters{
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+
+.counters-left-side{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.counters-right-side{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.video-uploader > img{
+    border-radius: 100px;
+}
+
+
+.video-uploader > label{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.video-uploader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

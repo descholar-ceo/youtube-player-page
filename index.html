@@ -7,40 +7,48 @@
     <title>YouTube video player page</title>
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav>
         <ul class="nav-left-section">
-            <li><img src="./img/three-bars-icon.png"/></li>
-            <li><img src="./img/youtube-icon.jpeg"/></li>
+            <li><img src="/img/fontawesome/align-justify.svg"></li>
+            <li class="youtube-icon"><img src="/img/youtube-icon.jpeg"/></li>
         </ul>
-        <ul class="nav-middle-section">
-            <li>
-                <input type="text" name="serch-query" placeholder="search-bar">
-            </li>
-            <li>
-                <img src="./img/google-web-search-xxl.png"/>
-            </li>
-        </ul>
+        <form class="nav-middle-section">
+            <input type="text" name="serch-query" placeholder="Search">
+            <button type="button"><img src="./img/fontawesome/search.svg"/></button>
+        </form>
         <ul class="nav-right-section">
-            <li><a href="#">Add video</a> </li>
-            <li><a href="#"><img src="/img/grid-icon.png"></a></li>
-            <li><a href="#"><img src="/img/three-dots-icon.png"></a></li>
-            <li><a href="#"><img src="/img/default-user-icon.png"/>SIGNIN</a></li>
+            <li><a href="#"><img src="/img/fontawesome/th.svg"></a></li>
+            <li><a href="#"><img src="/img/fontawesome/bell.svg"></a></li>
+            <li><a href="#"><img src="/img/fontawesome/user-circle.svg"/></a></li>
         </ul>
     </nav>
+
     <section class="main-player">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Li9nsi9-0xw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="800" height="415" src="https://www.youtube.com/embed/Li9nsi9-0xw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3>Elizabeth Villalejos on Microverse's Student Experience</h3>
+        
         <div class="counters">
-            <span class="views">5,213 views</span> . 
-            <span class="date-uploaded">May 25, 2019</span>
-            <span class="likes">37</span>
-            <span class="dislikes">1</span></div>
+            <div class="counters-left-side">
+                <span class="views">5,213 views</span> . 
+                <span class="date-uploaded">May 25, 2019</span>
+            </div>
+            <div class="counters-right-side">
+                <span class="likes"><img class="silver-color" src="/img/fontawesome/thumbs-up.svg"/>37</span>
+                <span class="dislikes"><img src="/img/fontawesome/thumbs-down.svg"/>1</span>
+                <span class="dislikes"><img src="/img/fontawesome/share.svg"/>SHARE</span>
+            </div>
+        </div>
+        
         <div class="description">
-            <span><img class="img-uploader-icon" src="/img/microverse-icon.jpeg"></span>
+            <span class="video-uploader">
+                <img class="img-uploader-icon" src="/img/microverse-icon.jpeg">
+                <label>Microverse</label>
+            </span>
             <button class="subscribe-btn">SUBSCRIBE</button>
         </div>
         <div>Elizabeth Villalejos from Sonora, Mexico talks about the Microverse Student experience and why she recommends Microverse. <span>show more</span></div>
     </section>
+
     <aside class="sidebar"></aside>
     
 </body>
