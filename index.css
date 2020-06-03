@@ -13,9 +13,7 @@ nav {
   left: 0;
   top: 0;
   background-color: rgb(255, 255, 255);
-}
-section {
-  margin-top: 90px;
+  z-index: 1;
 }
 
 img {
@@ -134,9 +132,43 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  z-index: 0;
+  margin-left: 1%;
+  margin-right: 1%;
 }
+
+section {
+    margin-top: 90px;
+    width: 60%;
+  }
 aside {
+margin-top: 90px;
   display: flex;
   flex-direction: column;
   width: 40%;
+}
+
+aside > ul > li{
+height: 150px;
+margin-bottom: 20px;
+width: 100%;
+display: flex;
+flex-direction: row;
+position: relative;
+top: 0;
+left: 0;
+}
+aside > ul > li > img{
+height: 100%;
+margin-left: 20px;
+position: absolute;
+top: 0;
+left: 0;
+}
+aside > ul > li > div{
+height: 100%;
+width: 40%;
+position: absolute;
+top: 0;
+right: 0;
 }
