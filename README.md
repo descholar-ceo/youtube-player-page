@@ -1,5 +1,6 @@
 # Youtube Player Page
 This a project which shows a YouTube player page, It appears when a user clicks on one video. When a video is being played, there is a main video which is being played and other videos listed on the right side of the video. This project showcases that the video is available for viewing.
+![](/img/sample-page.jpeg)
 # Built with 
 1. HTML5 
 1. CSS3
