@@ -188,3 +188,13 @@ right: 0;
 iframe{
   border: 0;
 }
+
+.share-button{
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+  height: 30px;
+  width: 70px;
+}
+
