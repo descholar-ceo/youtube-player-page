@@ -1,0 +1,200 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+img {
+  height: 40px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-right-section {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.nav-middle-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-left: 150px;
+}
+
+.nav-middle-section > li {
+  display: inline-block;
+}
+form > input {
+  position: relative;
+  top: 0;
+  width: 500px;
+  height: 30px;
+}
+
+form > button {
+  height: 35px;
+  cursor: pointer;
+}
+
+button > img {
+  height: 60%;
+}
+
+section {
+  width: 60%;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.subscribe-btn {
+  background-color: rgb(255, 0, 0);
+  border: none;
+  animation: none;
+  color: rgb(255, 255, 255);
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.counters {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.counters-left-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.counters-right-side {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div > span > img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+hr{
+    margin-top: 30px;
+}
+.video-uploader > img {
+  border-radius: 100px;
+}
+
+.video-uploader > label {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.video-uploader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.video-description {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 0;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+section {
+    margin-top: 90px;
+    width: 60%;
+  }
+aside {
+margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+aside > ul > li{
+height: 150px;
+margin-bottom: 20px;
+width: 100%;
+display: flex;
+flex-direction: row;
+position: relative;
+top: 0;
+left: 0;
+cursor: pointer;
+}
+
+aside > ul > li > img{
+height: 100%;
+margin-left: 20px;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+aside > ul > li > div{
+height: 100%;
+width: 40%;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+iframe{
+  border: 0;
+}
+
+.share-button{
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+  height: 30px;
+  width: 70px;
+}
+
